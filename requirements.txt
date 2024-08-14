@@ -1,5 +1,5 @@
 paddleocr
-paddlepaddle 
+paddlepaddle-gpu==2.6.1 
 opencv-python 
 numpy
 fastapi[standard]

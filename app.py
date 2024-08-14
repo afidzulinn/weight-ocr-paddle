@@ -127,7 +127,7 @@ async def perform_ocr(file: UploadFile = File(...)):
 
         image_format in ["jpg", "png", "jpeg", "webp", "gif"]
         nparr = np.frombuffer(contents, np.uint8)
-        img = cv2.imdecode(nparr, cv2.IMREAD_ANYCOLOR)
+        img = cv2.imdecode(nparr, cv2.IMREAD_UNCHANGED)
         
         # if image_format in ["png", "jpeg", "jpg", "webp"]:
         #     nparr = np.frombuffer(contents, np.uint8)
