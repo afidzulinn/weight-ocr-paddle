@@ -1,3 +1,6 @@
 /.idea
 /venv
 /__pycache__
+/test.py
+/app.log
+/main.py
