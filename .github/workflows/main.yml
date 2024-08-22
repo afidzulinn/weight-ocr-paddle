@@ -55,7 +55,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           
-# deploy to portainer
   deploy:
     needs: build
     runs-on: ubuntu-latest
